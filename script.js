@@ -8,7 +8,7 @@ function logger(param) {
 function sumOfTwoNumbers(number1, number2) {
    // console.log(number1 + number2);
     let sum = number1 + number2;
-    return sum;
+    return sum; //itt tér vissza a függv. az eredménnyel
 }
 
 /* let result = sumOfTwoNumbers(2, 4)
