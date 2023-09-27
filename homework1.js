@@ -1,7 +1,7 @@
 function printToConsole(dataToPrinter) {
     console.log(dataToPrinter);
 }
-const pi = 3.14;
+const pi = 3.14159;
 
 function circleAreaCalculatior(diameter) {
     let circleArea = diameter * diameter * pi;
