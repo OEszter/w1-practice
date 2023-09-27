@@ -1,11 +1,11 @@
 function printToConsole(dataToPrinter) {
     console.log(dataToPrinter);
 }
-const pi = 3.14159;
+const pi = Math.PI;
 
-function circleAreaCalculatior(diameter) {
-    let circleArea = diameter * diameter * pi;
-    return "A " + diameter + "cm sugarú kőr átmérője " + circleArea + " cm2."
+function circleAreaCalculator(radius) {
+    let circleArea = Math.pow(radius,2) * pi;
+    return `A ${radius} cm sugarú kőr területe ${circleArea} cm2.`
 }
 
-printToConsole(circleAreaCalculatior(7));
+printToConsole(circleAreaCalculator(7));
