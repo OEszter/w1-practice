@@ -1,0 +1,26 @@
+html {
+    background-color: aqua;
+}
+
+body {
+    font-size: 40px;
+}
+
+h1.color-white {
+    color: white;
+}
+
+h2 {
+    color: greenyellow;
+    font-size: 10px;
+}
+
+p.color-fuchsia {
+    color: fuchsia; 
+    text-align: justify;
+}
+
+h1 {
+    outline: rgb(132, 62, 9) solid 10px;
+    
+}
