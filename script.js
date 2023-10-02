@@ -46,3 +46,4 @@ for (let index = 0; index < variable1.length; index++) {
 
 //console.log("end of code");
 
+//áthelyeztem másik folder alá ezt a fájlt
